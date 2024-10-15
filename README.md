@@ -38,11 +38,12 @@ pip install -r requirements.txt
 ### Usage
 
 1. Prepare your Street View Imagery (SVI) data.
+   
 ![1728991299254](https://github.com/user-attachments/assets/bf1cc478-e3a9-4515-a1ef-85ade57ee856)
+
 2. Run the preprocessing script to generate graph representations:
 python StreetView_Graph.py --input_dir /path/to/svi --output_dir /path/to/output
-3. Train and  Perform the model:
-python HybridGraph.py
+3. Train and  Perform the model: python HybridGraph.py
 
 
 ## Results
