@@ -2,6 +2,8 @@
 
 This repository contains the implementation of a dynamic graph representation framework based on dual spatial semantics for urban street representation and traffic classification (one downstream task example). Our method leverages street-view imagery and social media data to enhance urban traffic analysis.
 
+![image](https://github.com/user-attachments/assets/dc050c4c-690c-4615-bd0d-508041cb0137)
+
 ## Overview
 
 Our approach, Hybrid Graph Neural Network, captures both close-range and long-range spatial relationships, leading to significant improvements in traffic prediction. The framework addresses two key challenges:
@@ -9,7 +11,7 @@ Our approach, Hybrid Graph Neural Network, captures both close-range and long-ra
 1. Considering spatial adjacency between visual elements within street scenes.
 2. Accounting for spatial dependency and interaction between streets.
 
-![image](https://github.com/user-attachments/assets/dc050c4c-690c-4615-bd0d-508041cb0137)
+![image](https://github.com/user-attachments/assets/9ffec6d4-b483-4948-b9c8-3554f70b4ce2)
 
 ## Features
 
