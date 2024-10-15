@@ -54,7 +54,7 @@ Our method achieves accuracies of 57.72% and 60.13% in speed and flow prediction
 
 If you use this code in your research, please cite our paper:
 
-Zhang, Y., Li, Y., & Zhang, F. (2024). Multi-level urban street representation with street-view imagery and hybrid semantic graph. ISPRS Journal of Photogrammetry and Remote Sensing. Elsevier.
+*Zhang, Y., Li, Y., & Zhang, F. (2024). Multi-level urban street representation with street-view imagery and hybrid semantic graph. ISPRS Journal of Photogrammetry and Remote Sensing. Elsevier.*
 
 
 ## License
