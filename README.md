@@ -9,6 +9,8 @@ Our approach, Hybrid Graph Neural Network, captures both close-range and long-ra
 1. Considering spatial adjacency between visual elements within street scenes.
 2. Accounting for spatial dependency and interaction between streets.
 
+![image](https://github.com/user-attachments/assets/dc050c4c-690c-4615-bd0d-508041cb0137)
+
 ## Features
 
 - Dynamic parsing of visual elements within street scenes
@@ -36,6 +38,7 @@ pip install -r requirements.txt
 ### Usage
 
 1. Prepare your Street View Imagery (SVI) data.
+![1728991299254](https://github.com/user-attachments/assets/bf1cc478-e3a9-4515-a1ef-85ade57ee856)
 2. Run the preprocessing script to generate graph representations:
 python StreetView_Graph.py --input_dir /path/to/svi --output_dir /path/to/output
 3. Train and  Perform the model:
@@ -51,11 +54,11 @@ Our method achieves accuracies of 57.72% and 60.13% in speed and flow prediction
 If you use this code in your research, please cite our paper:
 
 @article{zhang2023multilevel,
-title={Multi-level urban street representation with street-view imagery and hybrid semantic graph},
-author={Zhang, Yan and Li, Yong and Zhang, Fan},
-journal={Your Journal Name},
-year={2023},
-publisher={Publisher Name}
+  title={Multi-level urban street representation with street-view imagery and hybrid semantic graph},
+  author={Zhang, Yan and Li, Yong and Zhang, Fan},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  year={2024},
+  publisher={Elsevier}
 }
 
 
@@ -63,9 +66,6 @@ publisher={Publisher Name}
 
 This project is licensed under the MIT License.
 
-## Acknowledgments
-
-- List any acknowledgments or credits here
 
 ## Contact
 
