@@ -1,4 +1,4 @@
-# HybridGraph: Multi-level Urban Street Representation for Traffic Classification
+# [Multi-level urban street representation with street-view imagery and hybrid semantic graph](https://www.sciencedirect.com/science/article/pii/S0924271624003708)
 
 This repository contains the implementation of a dynamic graph representation framework based on dual spatial semantics for urban street representation and traffic classification (one downstream task example). Our method leverages street-view imagery and social media data to enhance urban traffic analysis.
 
