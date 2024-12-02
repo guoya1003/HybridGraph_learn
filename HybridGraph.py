@@ -58,10 +58,10 @@ def generate_dummy_graph_data(num_nodes=100, num_node_features=19, num_classes=3
     test_mask = torch.zeros(num_nodes, dtype=torch.bool)
     train_mask[:num_train] = True
     test_mask[num_train:] = True
-    data1.train_mask = train_mask
+    data1.train_mask = train_mask  #哪些节点是测试
     data1.test_mask = test_mask
 
-    data2.train_mask = train_mask
+    data2.train_mask = train_mask  #哪些节点是训练节点
     data2.train_mask = train_mask
 
     return data1, data2
@@ -133,7 +133,7 @@ class traditional_GCN(nn.Module):
         super(traditional_GCN, self).__init__()
         self.conv1 = GCNConv(input_dim, hidden_dim)
         self.conv2 = GCNConv(hidden_dim, output_dim)
-        self.local_attention = nn.MultiheadAttention(embed_dim=38, num_heads=1)
+        self.local_attention = nn.MultiheadAttention(embed_dim=38, num_heads=1) #定义了，但是没有使用。作为对比模型
 
     def forward(self, mixed_data):
         data = mixed_data[0]
