@@ -68,3 +68,8 @@ This project is licensed under the MIT License.
 
 For any questions or concerns, please open an issue or contact the repository owner (sggzhang@whu.edu.cn).
 This README provides an overview of the project, instructions for installation and usage, information about the results, citation details, and other necessary information. You may want to adjust the content based on the specific structure and requirements of your project.
+
+## notice （gy）
+对比模型包括 GCN、RF、SVM、LR、KNN、Naive bayes、Decision tree、 Gradient boosting、 Neural network
+四分类最高精度是0.5373和0.5938 traffic speed and volume
+三分类 0.6034和0.6546
